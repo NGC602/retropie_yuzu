@@ -18,7 +18,7 @@ rp_module_flags="!arm"
 
 function install_bin_yuzu() {
     mkdir -p "$md_inst/bin"
-    sh /home/console/scripts/autoyuzu.sh -O "$md_inst/bin/yuzu.AppImage"
+    sh ~/scripts/autoyuzu.sh -O "$md_inst/bin/yuzu.AppImage"
     chmod +x "$md_inst/bin/yuzu.AppImage"
 }
 
