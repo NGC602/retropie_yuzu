@@ -6,7 +6,6 @@ This will make directories for Yuzu, download the latest (LINUX) version, rename
 Open a terminal and run:
 ```
 mkdir scripts
-
 cd /opt/retropie/emulators
 mkdir yuzu/
 ```
