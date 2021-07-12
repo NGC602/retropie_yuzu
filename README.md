@@ -12,10 +12,10 @@ mkdir yuzu/
 Once finished, place "autoyuzu.sh" inside the `~/scripts` folder, and ensure it is executable
 
 ```
-chmod +x scripts/autoyuzu.sh
+chmod +x ~/scripts/autoyuzu.sh
 ```
 
-Next, edit the following file `~/RetroPie-Setup/platforms.cfg` and add:
+Next, edit `~/RetroPie-Setup/platforms.cfg` and add:
 
 ```
 switch_exts=".NSI .XCI"
