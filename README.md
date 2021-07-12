@@ -1,8 +1,8 @@
 # Yuzu Install Script(s) for RetroPie
 
-This will make directories for Yuzu, download the latest (LINUX) version, rename it to Yuzu.AppImage and move it to the /opt/retropie/emulators/bin folder.
+This will make directories for Yuzu, download the latest (LINUX) version, rename it to Yuzu.AppImage, move it to the /opt/retropie/emulators/bin folder and then configure it for use with RetroPie/Emulationstation.
 
-## Initial Configuration
+## Initial (One-Time) Configuration
 Open a terminal and run:
 ```
 mkdir scripts
@@ -10,7 +10,8 @@ mkdir scripts
 cd /opt/retropie/emulators
 mkdir yuzu/
 ```
-Once finished, place "autoyuzu.sh" inside the folder, and ensure it is executable
+Once finished, place "autoyuzu.sh" inside the `~/scripts` folder, and ensure it is executable
+
 ```
 chmod +x scripts/autoyuzu.sh
 ```
