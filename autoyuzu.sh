@@ -10,17 +10,17 @@ curl -v -s https://api.github.com/repos/yuzu-emu/yuzu-mainline/releases/latest \
 | wget -qi -
 
 # Make directory for recently CURL'ed file and move everything to it
-mkdir /home/console/Desktop/yuzu
-mv yuzu* /home/console/Desktop/yuzu
+~/Desktop/yuzu
+mv yuzu* ~/Desktop/yuzu
 
 # Make a safe place, move yuzu to it and then rename it to something digestible
-mv /home/console/Desktop/yuzu/yuzu-*.AppImage /opt/retropie/emulators/yuzu/bin/yuzu.AppImage
+mv ~/Desktop/yuzu/yuzu-*.AppImage /opt/retropie/emulators/yuzu/bin/yuzu.AppImage
 
 # Get rid of the leftover stuff
 cd /home/console/Desktop
 rm -r yuzu
 
-#Allow execution of Yuzu.AppImage
+#Allow execution of Yuzu.AppImage - This is now done via yuzu.sh during install from RetroPie menu
 #chmod +x ~/yuzu/yuzu.AppImage
 
 exit 0
