@@ -28,4 +28,6 @@ Lastly, place the "yuzu.sh" file into `~/RetroPie-Setup/scriptmodules/emulators/
 
 Using this script is simple, just launch RPie or in a terminal type `sudo ~/RetroPie-Setup/retropie_setup.sh`, update the Script and then install Yuzu (Pre-Compiled Binary) from `Packages > EXP > Yuzu`
 
-This method also works for Updating the emulator from the menu, as well and should not require any additional configuration after installing for the first time or updating
+This method also works for Updating the emulator from the menu as well and should not require any additional configuration after installing for the first time or updating
+
+Cheers
