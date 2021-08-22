@@ -50,5 +50,9 @@ Cheers
 ***Shoutout***
 If you are viewing this page, you may also be interested in checking out this script for adding RPCS3 to the RetroPie menu
 https://github.com/raelgc/retropie_rpcs3
-Please note about the RPCS3 script: Modern installations of RetroPie no longer store `platforms.cfg` in `/opt/retropie/configs/all/` please instead repeat step 4 on *THIS PAGE* for RPCS3 to add Fullname and EXTS to the correct plaforms.cfg file. 
+
+
+Please note about the RPCS3 script: Modern installations of RetroPie no longer store `platforms.cfg` in `/opt/retropie/configs/all/` please instead repeat step 3 on *THIS PAGE* for RPCS3 to add Fullname and EXTS to the correct plaforms.cfg file. 
+
+
 If you do NOT do this step either for RPCS3 or Yuzu, every time you update the emulator through RetroPie-Setup you will have to add the Fullname and supported file extenstions (exts) to `/etc/emulationstation/es_systems.cfg`
