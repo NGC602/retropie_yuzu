@@ -1,4 +1,4 @@
-# Yuzu Install Script(s) for RetroPie
+# Yuzu (Unofficial) Install Script(s) for RetroPie
 
 This will make directories for Yuzu, download the latest (LINUX) version, rename it to Yuzu.AppImage, move it to the /opt/retropie/emulators/bin folder and then configure it for use with RetroPie/Emulationstation.
 
