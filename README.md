@@ -41,14 +41,15 @@ switch_fullname="Nintendo Switch"
 
 ### Using the Script
 
-Using this script is simple, just launch RPie or in a terminal type `sudo ~/RetroPie-Setup/retropie_setup.sh`, update the Script and then install Yuzu (Pre-Compiled Binary) from `Packages > EXP > Yuzu`
+Using this script is simple, just launch RetroPie and go to 'RetroPie Setup,' or in a terminal type `sudo ~/RetroPie-Setup/retropie_setup.sh`, update the Script and then install Yuzu (Pre-Compiled Binary) from `Packages > EXP > Yuzu`
 
-This method script also works for Updating the emulator from the menu as well and should not require any additional configuration after installing for the first time or updating. Just go in the RetroPie-Setup to `Packages > EXP > Yuzu` and choose `Update (from Pre-Compiled Binary)` after it has been installed for the first time
+This method script also works for Updating the emulator from the menu as well and should not require any additional configuration after installing for the first time. In RetroPie-Setup go to `Packages > EXP > Yuzu` and choose `Update (from Pre-Compiled Binary)` after it has been installed for the first time
 
 Cheers
 
 ***Shoutout***
 If you are viewing this page, you may also be interested in checking out this script for adding RPCS3 to the RetroPie menu
+
 https://github.com/raelgc/retropie_rpcs3
 
 
