@@ -2,6 +2,11 @@
 
 This will make directories for Yuzu, download the latest (LINUX) version, rename it to Yuzu.AppImage, move it to the /opt/retropie/emulators/bin folder and then configure it for use with RetroPie/Emulationstation.
 
+## Prerequisites
+Please first download/install Retropie on your Debian/Ubuntu device https://retropie.org.uk/docs/Debian/
+***NOTE***
+This would technically work with the Raspberry Pi version of RetroPie, but there is almost no point to that. The main purpose for this script is to be used with a full PC that is running the RPie software.
+
 ## Initial (First time ONLY) Configuration
 Open a terminal and run:
 ```
