@@ -10,7 +10,7 @@ curl -v -s https://api.github.com/repos/yuzu-emu/yuzu-mainline/releases/latest \
 | wget -qi -
 
 # Make directory for recently CURL'ed file and move everything to it
-~/Desktop/yuzu
+mkdir ~/Desktop/yuzu
 mv yuzu* ~/Desktop/yuzu
 
 # Make a safe place, move yuzu to it and then rename it to something digestible
