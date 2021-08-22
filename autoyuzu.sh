@@ -17,7 +17,7 @@ mv yuzu* ~/Desktop/yuzu
 mv ~/Desktop/yuzu/yuzu-*.AppImage /opt/retropie/emulators/yuzu/bin/yuzu.AppImage
 
 # Get rid of the leftover stuff
-cd /home/console/Desktop
+cd ~/Desktop
 rm -r yuzu
 
 #Allow execution of Yuzu.AppImage - This is now done via yuzu.sh during install from RetroPie menu
