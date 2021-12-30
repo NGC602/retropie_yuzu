@@ -11,6 +11,7 @@ Please first download & install Retropie on your Debian/Ubuntu device https://re
 ***THEME***
 For theme data, make sure you use The following Pixel theme instead of the Default EmulationStation Pixel theme (just replace the theme folder in ```/etc/emulationstation/themes/pixel``` with the one you downloaded
 https://drive.google.com/drive/folders/1Z6WVm87CJh4GUo4T18UdSVfujdlyuAjU?usp=sharing
+Theme Credit: https://www.reddit.com/r/emulation/comments/8tlyty/ive_updated_emulationstations_pixel_theme_by/
 
 ### Initial (First time ONLY) Script Configuration
 
